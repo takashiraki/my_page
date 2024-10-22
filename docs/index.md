@@ -4,22 +4,27 @@ layout: home
 
 hero:
   name: "takashiraki"
-  text: "takashiraki"
-  tagline: My great project tagline
+  text: "blog"
+  tagline: takashiraki's daily blog
+  image:
+    src: /images/fv.png
+    alt: my icon
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Tech
+      link: /posts/techs/blog-top
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Photo
+      link: /posts/photos/blog-top
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 技術ネタ
+    details: 読んだ本のこととか、技術ネタ殴り書きしてます
+  - title: デザイン
+    details: 一応六年間体験設計の研究してました
+  - title: 写真
+    details: 写真撮ってます
+  - title: ポートフォリオ
+    details: 作ったもの載せてます
 ---
 
