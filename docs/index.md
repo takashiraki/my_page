@@ -7,7 +7,7 @@ hero:
   text: "blog"
   tagline: takashiraki's daily blog
   image:
-    src: /images/fv.png
+    src: /fv.png
     alt: my icon
   actions:
     - theme: brand
