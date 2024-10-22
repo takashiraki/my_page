@@ -9,21 +9,38 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "Home", link: "/" },
-            { text: "Examples", link: "/markdown-examples" },
+            { text: "Tech blog", link: "/posts/techs/blog-top" },
+            { text: "Photo log", link: "/posts/photos/blog-top" },
         ],
 
-        sidebar: [
-            {
-                text: "Examples",
-                items: [
-                    { text: "Markdown Examples", link: "/markdown-examples" },
-                    { text: "Runtime API Examples", link: "/api-examples" },
-                ],
-            },
-        ],
+        sidebar: {
+            "/posts/techs/": [
+                {
+                    text: "Introduction",
+                    items: [
+                        {
+                            text: "Blog top",
+                            link: "/posts/techs/blog-top",
+                        },
+                    ],
+                },
+            ],
+            "/posts/photos/": [
+                {
+                    text: "Introduction",
+                    items: [
+                        {
+                            text: "Blog top",
+                            link: "/posts/photos/blog-top",
+                        },
+                    ],
+                },
+            ],
+        },
 
         socialLinks: [
-            { icon: "github", link: "https://github.com/vuejs/vitepress" },
+            { icon: "github", link: "https://github.com/takashiraki" },
+            { icon: "twitter", link: "https://x.com/genkaitoppa_pg" },
         ],
     },
 });
