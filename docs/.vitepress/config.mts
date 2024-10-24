@@ -7,10 +7,20 @@ export default defineConfig({
     description: "takashiraki",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
+        logo: "/fv.png",
         nav: [
             { text: "Home", link: "/" },
             { text: "Tech blog", link: "/posts/techs/blog-top" },
             { text: "Photo log", link: "/posts/photos/blog-top" },
+            {
+                text: "個人開発",
+                items: [
+                    {
+                        text: "アカウント管理",
+                        link: "/posts/dev/account-manager/introduction",
+                    },
+                ],
+            },
         ],
 
         sidebar: {
@@ -32,6 +42,26 @@ export default defineConfig({
                         {
                             text: "Blog top",
                             link: "/posts/photos/blog-top",
+                        },
+                    ],
+                },
+            ],
+            "/posts/dev/account-manager/": [
+                {
+                    text: "Introduction",
+                    items: [
+                        {
+                            text: "はじめに",
+                            link: "/posts/dev/account-manager/introduction",
+                        },
+                    ],
+                },
+                {
+                    text: "分析",
+                    items: [
+                        {
+                            text: "問題分析",
+                            link: "/posts/dev/account-manager/problem",
                         },
                     ],
                 },
