@@ -63,6 +63,10 @@ export default defineConfig({
                             text: "問題分析",
                             link: "/posts/dev/account-manager/problem",
                         },
+                        {
+                            text: "ユースケース - 基本",
+                            link: "/posts/dev/account-manager/usecase",
+                        },
                     ],
                 },
             ],
