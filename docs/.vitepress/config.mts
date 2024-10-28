@@ -65,7 +65,11 @@ export default defineConfig({
                         },
                         {
                             text: "ユースケース - 基本",
-                            link: "/posts/dev/account-manager/usecase",
+                            link: "/posts/dev/account-manager/basic-usecase",
+                        },
+                        {
+                            text: "ユースケース - 代替",
+                            link: "/posts/dev/account-manager/instead-usecase",
                         },
                     ],
                 },
