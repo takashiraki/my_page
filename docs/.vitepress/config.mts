@@ -81,6 +81,15 @@ export default defineConfig({
                         },
                     ],
                 },
+                {
+                    text: "実装",
+                    items: [
+                        {
+                            text: "使用技術",
+                            link: "/posts/dev/account-manager/tech",
+                        },
+                    ],
+                },
             ],
         },
 
