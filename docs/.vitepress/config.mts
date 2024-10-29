@@ -71,6 +71,10 @@ export default defineConfig({
                             text: "ユースケース - 代替",
                             link: "/posts/dev/account-manager/instead-usecase",
                         },
+                        {
+                            text: "ロバストネス - 基本",
+                            link: "/posts/dev/account-manager/basic-robustness",
+                        },
                     ],
                 },
             ],
