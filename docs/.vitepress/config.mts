@@ -75,6 +75,10 @@ export default defineConfig({
                             text: "ロバストネス - 基本",
                             link: "/posts/dev/account-manager/basic-robustness",
                         },
+                        {
+                            text: "ロバストネス - 代替",
+                            link: "/posts/dev/account-manager/instead-robustness",
+                        },
                     ],
                 },
             ],
