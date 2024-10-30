@@ -88,6 +88,14 @@ export default defineConfig({
                             text: "使用技術",
                             link: "/posts/dev/account-manager/tech",
                         },
+                        {
+                            text: "とりあえず書いてみる",
+                            link: "/posts/dev/account-manager/first-code",
+                        },
+                        {
+                            text: "リファクタ - コントローラー",
+                            link: "/posts/dev/account-manager/divide-logic",
+                        },
                     ],
                 },
             ],
