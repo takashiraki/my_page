@@ -96,6 +96,10 @@ export default defineConfig({
                             text: "リファクタ - コントローラー",
                             link: "/posts/dev/account-manager/divide-logic",
                         },
+                        {
+                            text: "実装 - 従業員ドメイン",
+                            link: "/posts/dev/account-manager/clean-architecture",
+                        },
                     ],
                 },
             ],
