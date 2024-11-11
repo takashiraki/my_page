@@ -97,8 +97,16 @@ export default defineConfig({
                             link: "/posts/dev/account-manager/divide-logic",
                         },
                         {
-                            text: "実装 - 従業員ドメイン",
-                            link: "/posts/dev/account-manager/clean-architecture",
+                            text: "ドメインオブジェクト",
+                            link: "/posts/dev/account-manager/domain-object",
+                        },
+                        {
+                            text: "境界オブジェクト",
+                            link: "/posts/dev/account-manager/dto",
+                        },
+                        {
+                            text: "アプリケーションサービス",
+                            link: "/posts/dev/account-manager/application-service",
                         },
                     ],
                 },
