@@ -96,6 +96,18 @@ export default defineConfig({
                             text: "リファクタ - コントローラー",
                             link: "/posts/dev/account-manager/divide-logic",
                         },
+                        {
+                            text: "ドメインオブジェクト",
+                            link: "/posts/dev/account-manager/domain-object",
+                        },
+                        {
+                            text: "境界オブジェクト",
+                            link: "/posts/dev/account-manager/dto",
+                        },
+                        {
+                            text: "アプリケーションサービス",
+                            link: "/posts/dev/account-manager/application-service",
+                        },
                     ],
                 },
             ],
