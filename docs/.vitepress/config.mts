@@ -108,6 +108,10 @@ export default defineConfig({
                             text: "アプリケーションサービス",
                             link: "/posts/dev/account-manager/application-service",
                         },
+                        {
+                            text: "コントローラー",
+                            link: "/posts/dev/account-manager/controller",
+                        },
                     ],
                 },
             ],
